@@ -2,7 +2,7 @@ from pyowm import OWM
 import telebot
 
 owm = OWM('862e8f25190a38f5cb47d3b24823611d')
-bot = telebot.TeleBot('5399191253:AAFym6ONlsRDYU4W3Qla0ZncndN7y8_3_X8')
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(content_types = ['text'])
 def where(message):
